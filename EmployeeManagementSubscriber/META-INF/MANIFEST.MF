@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: EmployeeManagementSubscriber
+Bundle-SymbolicName: EmployeeManagementSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.osgi.employeemanagementsubscriber.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: EmployeeManagementSubscriber
+Import-Package: com.osgi.employeemanagementpublisher,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy

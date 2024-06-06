@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SupplierManagementSubscriber
+Bundle-SymbolicName: SupplierManagementSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.osgi.suppliermanagementsubscriber.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: SupplierManagementSubscriber
+Import-Package: com.osgi.suppliermanagementpublisher,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy

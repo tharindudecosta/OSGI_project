@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ProductManagementSubscrier
+Bundle-SymbolicName: ProductManagementSubscrier
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: productmanagementsubscrier.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: ProductManagementSubscrier
+Import-Package: com.osgi.productmanagementpublisher,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy

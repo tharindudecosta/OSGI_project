@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ProductManagementPublisher
+Bundle-SymbolicName: ProductManagementPublisher
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.osgi.productmanagementpublisher.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: ProductManagementPublisher
+Import-Package: com.osgi.pcstoredb,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: com.osgi.productmanagementpublisher
